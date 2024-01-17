@@ -206,3 +206,17 @@ footer p span a{
     transform: translateX(10%) translateY(100%) scale(1);
   }
 }
+@media (max-width: 285px) {
+  #heading1{
+    height: 70px;
+  }
+  #about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+    height: 100px;
+  }
+}
